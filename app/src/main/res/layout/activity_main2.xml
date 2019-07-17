@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cloud.easy.txtbstest.Main2Activity">
+
+    <Button
+        android:id="@+id/btn_wan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="万位计算"/>
+    <Button
+        android:id="@+id/btn_qian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="千位计算"
+        android:layout_below="@+id/btn_wan"/>
+    <Button
+        android:id="@+id/btn_bai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="百位计算"
+        android:layout_below="@+id/btn_qian"/>
+    <Button
+        android:id="@+id/btn_shi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="十位计算"
+        android:layout_below="@+id/btn_bai"/>
+    <Button
+        android:id="@+id/btn_ge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="个位计算"
+        android:layout_below="@+id/btn_shi"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/tv_txt"
+        android:layout_below="@id/btn_ge"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"/>
+
+
+</RelativeLayout>
