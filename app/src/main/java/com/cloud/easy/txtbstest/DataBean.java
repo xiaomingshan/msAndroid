@@ -6,6 +6,7 @@ package com.cloud.easy.txtbstest;
 
 public class DataBean {
     private String data;
+    private String string;
 
     public String getData() {
         return data;
