@@ -7,6 +7,15 @@ package com.cloud.easy.txtbstest;
 public class DataBean {
     private String data;
     private String string;
+    private String sex;
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
 
     public String getData() {
         return data;
